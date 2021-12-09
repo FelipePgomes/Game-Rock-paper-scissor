@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2CB05;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 800;
+    margin: 15px 0;
+    color: #034AA6;
+}
+.container{
+    display: flex;
+}
+.container .section{
+    width: 350px;
+    margin: 20px 50px;
+}
+.section .info{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: rgba( 192, 211, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    background: rgba( 253, 253, 253, 0.9 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.show i{
+    font-size: 100px;
+    color: 	#FFCC99;
+    
+}
+h2{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold;
+    padding: 5px;
+    color: #034AA6;
+}
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+}
+.selection button{
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background : white;
+    font-size: 33px;
+    color: 	white;
+    background: rgba( 242, 183, 5, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 15px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
